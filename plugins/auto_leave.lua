@@ -15,7 +15,7 @@ local function run(msg)
     local data = load_data(_config.moderation.data)
     if not data[tostring(msg.to.id)] then
       print "This is not our group. Leaving..."
-      chat_del_user('chat#id'..msg.to.id, 'user#id'..167946378, callback, false)
+      chat_del_user('chat#id'..msg.to.id, 'user#id'..163363786, callback, false)
     end
   end
 end
